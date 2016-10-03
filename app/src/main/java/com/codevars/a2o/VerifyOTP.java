@@ -50,6 +50,8 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
 
     private String phonenumber;
 
+    private TextView sentnumber;
+
     private Animation slideup;
 
     private LinearLayout layoutsubmit;
@@ -65,8 +67,6 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
         setContentView(R.layout.activity_verify_otp);
 
         Typeface one = Typeface.createFromAsset(getAssets(), "fonts/Lato-Regular.ttf");
-
-        setContentView(R.layout.activity_phone);
 
         session = new SessionManagement(getApplicationContext());
 
@@ -103,6 +103,10 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
         submit.setTypeface(one);
 
         submit.setOnClickListener(this);
+
+        sentnumber = (TextView) findViewById(R.id.sentnumber);
+
+        sentnumber.setText(phonenumber);
 
         hideStatusBar();
 
@@ -180,6 +184,8 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
         }
 
         else {
+
+            Toast.makeText(this, otpfinal, Toast.LENGTH_SHORT).show();
 
             Toast.makeText(this, "Incorrect OTP!", Toast.LENGTH_SHORT).show();
 
@@ -335,6 +341,10 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
                     p3.requestFocus();
 
                     p4.setEnabled(false);
+
+                    layoutsubmit.setBackgroundColor(Color.parseColor("#994CAF50"));
+
+                    submit.setEnabled(false);
 
                 }
 
