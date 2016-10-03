@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import com.codevars.a2o.Phone;
+import com.codevars.a2o.VerifyOTP;
+
 import java.util.HashMap;
 
 public class SessionManagement {
@@ -108,7 +110,7 @@ public class SessionManagement {
 
         if (this.phoneDone()) {
 
-            Intent i = new Intent(context, Phone.class);
+            Intent i = new Intent(context, VerifyOTP.class);
 
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
@@ -121,6 +123,7 @@ public class SessionManagement {
         }
 
     }
+
 
 
 

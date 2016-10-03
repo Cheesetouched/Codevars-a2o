@@ -96,17 +96,9 @@ public class Phone extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Declaring Fonts
-
         Typeface one = Typeface.createFromAsset(getAssets(), "fonts/Lato-Regular.ttf");
 
-
-        //Setting Content View
-
         setContentView(R.layout.activity_phone);
-
-
-        // Session Management
 
         session = new SessionManagement(getApplicationContext());
 
@@ -114,7 +106,6 @@ public class Phone extends AppCompatActivity implements View.OnClickListener {
 
         sendemail = em.get(SessionManagement.EMAIL);
 
-        // Declaring Variables
 
         p1 = (EditText) findViewById(R.id.p1);
 
@@ -163,9 +154,6 @@ public class Phone extends AppCompatActivity implements View.OnClickListener {
         submit.setEnabled(false);
 
         layoutsubmit.setBackgroundColor(Color.parseColor("#994CAF50"));
-
-
-        // Setting Fonts
 
         warning.setTypeface(one);
 
