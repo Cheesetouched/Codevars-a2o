@@ -3,7 +3,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/introone">
+    android:background="@color/introthree">
 
 
 
@@ -20,9 +20,9 @@
         android:id="@+id/image"
         android:layout_width="200sp"
         android:layout_height="200sp"
-        android:src="@drawable/blood"
+        android:src="@drawable/tube"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70sp"
+        android:layout_marginTop="75sp"
         android:contentDescription="@string/image"/>
 
 
@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/introoneheader"
+            android:text="@string/introthreeheader"
             android:textSize="30sp"
             android:textStyle="bold"
             android:textColor="@color/white" />
@@ -46,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/introonemain"
+            android:text="@string/introthreemain"
             android:textSize="20sp"
             android:textColor="@color/white"
             android:layout_marginTop="30sp"

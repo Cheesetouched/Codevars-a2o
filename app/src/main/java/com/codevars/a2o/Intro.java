@@ -17,6 +17,9 @@ public class Intro extends AppIntro {
     @Override
     public void init(Bundle savedInstanceState) {
         addSlide(SampleSlide.newInstance(R.layout.intro_one));
+        addSlide(SampleSlide.newInstance(R.layout.intro_two));
+        addSlide(SampleSlide.newInstance(R.layout.intro_three));
+        addSlide(SampleSlide.newInstance(R.layout.intro_four));
 
 
         hideStatusBar();
