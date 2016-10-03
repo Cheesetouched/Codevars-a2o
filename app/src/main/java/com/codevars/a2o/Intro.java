@@ -51,7 +51,7 @@ public class Intro extends AppIntro {
     @Override
     public void onSkipPressed() {
 
-        session.unsetFirstTime(false);
+        session.createSplashSession();
 
         Intent go = new Intent(Intro.this, LoginRegisterTabbed.class);
 
@@ -69,7 +69,7 @@ public class Intro extends AppIntro {
     @Override
     public void onDonePressed() {
 
-        session.unsetFirstTime(false);
+        session.createSplashSession();
 
         Intent go = new Intent(Intro.this, LoginRegisterTabbed.class);
 

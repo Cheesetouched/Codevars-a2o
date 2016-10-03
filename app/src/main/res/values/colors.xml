@@ -10,6 +10,7 @@
     <color name="white">#ffffff</color> 
     <color name="grey">#E8E8EE</color> 
     <color name="green">#4CAF50</color> 
+    <color name="successgreen">#4F8A10</color>
     <color name="introone">#64B5F6</color> 
     <color name="introtwo">#FFD54F</color> 
     <color name="introthree">#CE93D8</color> 

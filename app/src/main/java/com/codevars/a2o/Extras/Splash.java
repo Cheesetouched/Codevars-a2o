@@ -3,10 +3,12 @@ package com.codevars.a2o.Extras;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Toast;
 
 import com.codevars.a2o.Fragments.Login;
 import com.codevars.a2o.Intro;
 import com.codevars.a2o.LocalStorage.SessionManagement;
+import com.codevars.a2o.LoginRegisterTabbed;
 
 public class Splash extends AppCompatActivity {
 
@@ -29,9 +31,9 @@ public class Splash extends AppCompatActivity {
 
     private void redirect() {
 
-        if (session.firstTime()) {
+        if (session.introDone()) {
 
-            Intent go = new Intent(Splash.this, Intro.class);
+            Intent go = new Intent(this, LoginRegisterTabbed.class);
 
             finish();
 
@@ -41,7 +43,7 @@ public class Splash extends AppCompatActivity {
 
         else {
 
-            Intent go = new Intent(Splash.this, Login.class);
+            Intent go = new Intent(this, Intro.class);
 
             finish();
 

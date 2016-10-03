@@ -29,7 +29,7 @@ import java.util.HashMap;
 public class Phone extends AppCompatActivity implements View.OnClickListener {
 
 
-    private final static String REQUEST_OTP = "http://a2o.esy.es/otp.php";
+    private final static String REQUEST_OTP = "http://atoo.esy.es/otp.php";
 
     private TextView warning;
 
@@ -110,8 +110,9 @@ public class Phone extends AppCompatActivity implements View.OnClickListener {
 
         session = new SessionManagement(getApplicationContext());
 
+        HashMap<String, String> em = session.getEmail();
 
-
+        sendemail = em.get(SessionManagement.EMAIL);
 
         // Declaring Variables
 
@@ -646,7 +647,7 @@ public class Phone extends AppCompatActivity implements View.OnClickListener {
 
                     submit.setEnabled(false);
 
-                    submit.setBackgroundColor(Color.parseColor("#994CAF50"));
+                    layoutsubmit.setBackgroundColor(Color.parseColor("#994CAF50"));
 
                 }
 
@@ -670,7 +671,7 @@ public class Phone extends AppCompatActivity implements View.OnClickListener {
 
 
 
-    private void otp(String mobile, String phone, String email) {
+    private void otp(String mobile, final String phone, String email) {
 
         class requestOTP extends AsyncTask<String, Void, String> {
 
@@ -698,6 +699,13 @@ public class Phone extends AppCompatActivity implements View.OnClickListener {
 
                     otp = s;
 
+                    session.createNumberSession(phone, otp);
+
+                    Intent go = new Intent(Phone.this, VerifyOTP.class);
+
+                    finish();
+
+                    startActivity(go);
 
                 }
 

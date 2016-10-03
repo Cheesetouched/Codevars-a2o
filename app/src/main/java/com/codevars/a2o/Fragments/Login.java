@@ -2,6 +2,7 @@ package com.codevars.a2o.Fragments;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
@@ -18,6 +19,8 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.codevars.a2o.LocalStorage.SessionManagement;
+import com.codevars.a2o.Phone;
 import com.codevars.a2o.R;
 import com.codevars.a2o.Server.RegisterUserClass;
 import com.google.android.gms.vision.text.Line;
@@ -40,6 +43,8 @@ public class Login extends Fragment implements View.OnClickListener {
 
     private Animation slideup;
 
+    private SessionManagement session;
+
 
     public Login() {
 
@@ -53,6 +58,11 @@ public class Login extends Fragment implements View.OnClickListener {
 
         View view =  inflater.inflate(R.layout.fragment_login, container, false);
 
+        session = new SessionManagement(getContext());
+
+        session.login();
+
+        session.phone();
 
         email = (EditText) view.findViewById(R.id.email);
 
@@ -162,7 +172,7 @@ public class Login extends Fragment implements View.OnClickListener {
 
 
 
-    private void login(String em, String pass) {
+    private void login(final String em, final String pass) {
 
         class LoginUserClass extends AsyncTask<String, Void, String > {
 
@@ -187,6 +197,14 @@ public class Login extends Fragment implements View.OnClickListener {
                 if (s.equalsIgnoreCase("Successfully Logged In!")) {
 
                     Toast.makeText(getContext(), s, Toast.LENGTH_SHORT).show();
+
+                    session.createLoginSession(em);
+
+                    Intent go = new Intent(getContext(), Phone.class);
+
+                    getActivity().finish();
+
+                    startActivity(go);
 
                     return;
 

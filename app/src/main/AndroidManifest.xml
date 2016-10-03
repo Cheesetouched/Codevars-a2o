@@ -41,8 +41,14 @@
             android:theme="@style/AppThemeNoBar" />
         <activity
             android:name=".Phone"
+            android:label="Verify Your Phone Number"
             android:screenOrientation="portrait"
-            android:label="Verify Your Phone Number"/>
+            android:theme="@style/Theme.Design.Light" />
+        <activity
+            android:name=".VerifyOTP"
+            android:label="One Time Password"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Design.Light"/>
     </application>
 
 </manifest>

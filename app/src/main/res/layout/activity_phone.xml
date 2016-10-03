@@ -39,7 +39,7 @@
         android:background="@drawable/dialog"
         android:layout_above="@+id/buttonpanel"
         android:layout_below="@+id/warningcontainer"
-        android:paddingStart="30sp"
+        android:paddingStart="25sp"
         android:paddingEnd="10sp"
         android:layout_marginTop="5sp"
         android:layout_marginBottom="200sp"
