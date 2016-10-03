@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -46,14 +47,22 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        String[] hospitalarray = {"Apollo Cradle","Chettinad hospital urban health care","COSH - Multispeciality Hospital","Life Care Hospital","Medicity Hospital","Swaram Hospital"};
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.simpleitemlist,hospitalarray);
+        lvmenu = (ListView) findViewById(R.id.listview);
+        lvmenu.setAdapter(adapter);
     }
 
 
@@ -75,6 +84,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 
         //adding markers
+
+        final LatLng ktr = new LatLng(12.8242, 80.0443);
+        mMap.addMarker(new MarkerOptions().position(ktr));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(ktr));
 
         hospital1 =  mMap.addMarker(new MarkerOptions()
                 .title("Apollo Cradle")
@@ -103,6 +116,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         hospital7 = mMap.addMarker(new MarkerOptions()
                 .title("Swaram Hospital")
                 .position(hosp7));
+
+        CameraUpdate zoom = CameraUpdateFactory.zoomTo(9);
+
+        mMap.animateCamera(zoom);
 
 
 
