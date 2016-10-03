@@ -139,6 +139,30 @@ public class SessionManagement {
 
 
 
+    public HashMap<String, String> getPhoneNumber() {
+
+        HashMap<String, String> phone = new HashMap<>();
+
+        phone.put(MOBILE, pref.getString(MOBILE, null));
+
+        return phone;
+
+    }
+
+
+
+    public HashMap<String, String> getOTPDetails() {
+
+        HashMap<String, String> otp = new HashMap<>();
+
+        otp.put(OTP, pref.getString(OTP, null));
+
+        return otp;
+
+    }
+
+
+
     public boolean introDone() { return pref.getBoolean(INTRO, false); }
 
     public boolean loginDone() { return pref.getBoolean(LOGIN, false); }

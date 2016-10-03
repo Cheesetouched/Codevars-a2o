@@ -129,7 +129,7 @@
                 android:textSize="25sp"
                 android:ems="3"
                 android:inputType="number"
-                android:maxLength="2"
+                android:maxLength="1"
                 android:gravity="center"/>
 
         </LinearLayout>
@@ -147,7 +147,7 @@
         android:layout_margin="10sp">
 
         <Button
-            android:id="@+id/submit"
+            android:id="@+id/otpsubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackground"
