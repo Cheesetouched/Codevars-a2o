@@ -46,6 +46,11 @@ public class Intro extends AppIntro {
     @Override
     public void onSkipPressed() {
 
+        Intent go = new Intent(Intro.this, LoginRegisterTabbed.class);
+
+        finish();
+
+        startActivity(go);
 
     }
 
@@ -57,7 +62,7 @@ public class Intro extends AppIntro {
     @Override
     public void onDonePressed() {
 
-        Intent go = new Intent(Intro.this, MapsActivity.class);
+        Intent go = new Intent(Intro.this, LoginRegisterTabbed.class);
 
         finish();
 
