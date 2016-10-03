@@ -3,6 +3,9 @@
     package="com.codevars.a2o">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -16,7 +19,8 @@
 
         <activity
             android:name=".Splash"
-            android:theme="@style/SplashTheme">
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,14 +29,17 @@
         </activity>
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" />
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".LoginRegisterTabbed"
-            android:theme="@style/AppThemeNoBar"/>
+            android:theme="@style/AppThemeNoBar"
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".Intro"
-            android:theme="@style/AppThemeNoBar"/>
+            android:theme="@style/AppThemeNoBar"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
