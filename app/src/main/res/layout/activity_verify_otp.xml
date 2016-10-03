@@ -75,7 +75,8 @@
                 android:id="@+id/timer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@android:color/holo_red_light"
+                android:textColor="@color/green"
+                android:textStyle="bold"
                 android:textSize="15sp"/>
 
             <TextView
@@ -83,6 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
                 android:textSize="15sp"/>
 
 

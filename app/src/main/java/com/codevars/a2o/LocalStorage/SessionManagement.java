@@ -86,6 +86,22 @@ public class SessionManagement {
 
 
 
+    public void createOTPSession(String mobile, String otp) {
+
+        editor.putString(MOBILE, mobile);
+
+        editor.putString(OTP, otp);
+
+        editor.putBoolean(LOGIN, false);
+
+        editor.putBoolean(NUMBER, true);
+
+        editor.commit();
+
+    }
+
+
+
     public void login() {
 
         if (this.loginDone()) {

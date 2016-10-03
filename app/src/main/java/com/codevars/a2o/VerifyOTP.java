@@ -1,9 +1,13 @@
 package com.codevars.a2o;
 
+import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
+import android.os.AsyncTask;
+import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
@@ -20,6 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.codevars.a2o.LocalStorage.SessionManagement;
+import com.codevars.a2o.Server.RegisterUserClass;
 
 import java.util.HashMap;
 
@@ -48,9 +53,17 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
 
     private String otpfinal;
 
+    private String mobile;
+
     private String phonenumber;
 
+    private String emailrequest;
+
     private TextView sentnumber;
+
+    private TextView timer;
+
+    private TextView resend;
 
     private Animation slideup;
 
@@ -74,9 +87,13 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
 
         HashMap<String, String> otp = session.getOTPDetails();
 
+        HashMap<String, String> email = session.getEmail();
+
         phonenumber = phone.get(SessionManagement.MOBILE);
 
         otpcheck = otp.get(SessionManagement.OTP);
+
+        emailrequest = email.get(SessionManagement.EMAIL);
 
         p1 = (EditText) findViewById(R.id.p1);
 
@@ -104,6 +121,12 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
 
         submit.setOnClickListener(this);
 
+        timer = (TextView) findViewById(R.id.timer);
+
+        resend = (TextView) findViewById(R.id.resend);
+
+        resend.setOnClickListener(this);
+
         sentnumber = (TextView) findViewById(R.id.sentnumber);
 
         sentnumber.setText(phonenumber);
@@ -114,6 +137,7 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
 
         textWatcher();
 
+        countdown();
 
     }
 
@@ -173,6 +197,30 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
 
 
 
+    private void countdown() {
+
+        new CountDownTimer(30000, 1000) {
+
+            public void onTick(long millisUntilFinished) {
+
+                timer.setText("Seconds Remaining: " + millisUntilFinished / 1000);
+
+            }
+
+            public void onFinish() {
+
+                timer.setVisibility(View.GONE);
+
+                resend.setText("Didn't Get OTP?");
+
+            }
+
+        }.start();
+
+    }
+
+
+
     private void verify() {
 
         otpfinal = first+second+third+fourth;
@@ -181,15 +229,100 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
 
             Toast.makeText(this, "Verified!", Toast.LENGTH_SHORT).show();
 
+            Intent go = new Intent(VerifyOTP.this, DonateRequest.class);
+
+            startActivity(go);
+
         }
 
         else {
 
-            Toast.makeText(this, otpfinal, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, otpcheck, Toast.LENGTH_SHORT).show();
 
             Toast.makeText(this, "Incorrect OTP!", Toast.LENGTH_SHORT).show();
 
         }
+
+    }
+
+
+
+    private void request() {
+
+        mobile = "91" + phonenumber;
+
+        requestOTP(mobile, phonenumber, emailrequest);
+
+    }
+
+
+
+    private void requestOTP(String mobile, final String phone, String email) {
+
+        class requestOTP extends AsyncTask<String, Void, String> {
+
+            ProgressDialog loading;
+
+            @Override
+            protected void onPreExecute() {
+                super.onPreExecute();
+
+                loading = new ProgressDialog(VerifyOTP.this, R.style.LoaderTheme);
+                loading.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
+                loading.setCancelable(false);
+                loading.show();
+
+            }
+
+            @Override
+            protected void onPostExecute(String s) {
+                super.onPostExecute(s);
+                loading.dismiss();
+
+                if (s.length() == 4) {
+
+                    Toast.makeText(VerifyOTP.this, "OTP Sent!", Toast.LENGTH_LONG).show();
+
+                    session.createNumberSession(phone, s);
+
+                    HashMap<String, String> otp = session.getOTPDetails();
+
+                    otpcheck = otp.get(SessionManagement.OTP);
+
+                }
+
+                else {
+
+                    Toast.makeText(VerifyOTP.this, s, Toast.LENGTH_LONG).show();
+
+                }
+
+            }
+
+            @Override
+            protected String doInBackground(String... params) {
+
+                HashMap<String, String> credentials = new HashMap<>();
+
+                credentials.put("mobile", params[0]);
+
+                credentials.put("phone", params[1]);
+
+                credentials.put("email", params[2]);
+
+                RegisterUserClass ruc = new RegisterUserClass();
+
+                String result = ruc.sendPostRequest(REQUEST_OTP, credentials);
+
+                return result;
+
+            }
+
+        }
+
+        requestOTP attempt = new requestOTP();
+
+        attempt.execute(mobile, phone, email);
 
     }
 
@@ -366,12 +499,21 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
 
 
 
+
     @Override
     public void onClick(View view) {
 
         if (view == submit) {
 
             check();
+
+        }
+
+        if (view == resend) {
+
+            request();
+
+            countdown();
 
         }
 

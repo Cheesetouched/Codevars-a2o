@@ -24,6 +24,10 @@
 
     <string name="submit">SUBMIT</string>
 
+    <string name="donate">DONATE</string>
+
+    <string name="request">REQUEST</string>
+
     <string name="prefix">+91</string>
 
     <string name="introoneheader">From A To O</string>

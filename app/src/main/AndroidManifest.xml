@@ -48,7 +48,11 @@
             android:name=".VerifyOTP"
             android:label="One Time Password"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.Design.Light"/>
+            android:theme="@style/Theme.Design.Light" />
+        <activity
+            android:name=".DonateRequest"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoBar"/>
     </application>
 
 </manifest>
