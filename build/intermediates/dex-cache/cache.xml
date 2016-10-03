@@ -21,12 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_435da67f0b9d4698e3fdaec2c844d3ab6bddc55d/classes.dex" />
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_9dfa920606b971cf944769ca54c3cdedbaa773b9/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,12 +39,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e6b4c4a21778fa5d5c66a5d81750245cb34aed18/classes.dex" />
+        revision="24.0.2"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_40a25641847f7e04eee668212901987dd3ba533b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,6 +57,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.1_50ef56e7cb2ddf69220e756de7dd356c98c8cede/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.6.1_5494013772f04ccbc80bdb97c006179b24f44295/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -66,12 +84,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ff9be0a1e75a21c372735930d8987a55b5e6065f">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.6.1_e85dc1b19b8eb2e59a54a7d5264ef4263d38b707/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
         <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_04acbe802faefb0e3dc588f0c31969f2c0c6709d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="cdddf21e0a8205e9955661061d1735ed10e44a7b">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.6.1_c311f0eac92ed1c46653ddaae9a9da52d7b7e3cb/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,15 +129,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8ebae43cd06058e99e08c8b4d305b72f2b9927c6">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.6.1_224fa2e49f010d6eb698cc8fc2f4df4a9c60af14/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -117,15 +144,6 @@
         revision="24.0.1"
         sha1="0e0e0681c26a1f575d3e4c542182dd59bab75fd6">
         <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.6.1_682c200cdbab448cd8190505fe4013a3ceae831c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_32d6369c789a1ba8188c137d33397ca3c3191721/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,6 +165,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.6.1_52669bb8e543ee90b62929abba911cca1518cebc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -165,12 +192,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.1_a1b9f371743165be73e7e92813259bf322be7e92/classes.dex" />
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_435da67f0b9d4698e3fdaec2c844d3ab6bddc55d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_e627f8eb20cffbfd7cc51873d2c729fbc2a894e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a76a6983a23788b3689524d4bed763955afbd306">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.6.1_d4386bb38bc046a21e31bbd9e8b6f51396981ca1/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -183,12 +228,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_0bc5bb6264c56f6ba61a948ec5b55cf8e881835f/classes.dex" />
+        revision="24.0.2"
+        sha1="8ebae43cd06058e99e08c8b4d305b72f2b9927c6">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.6.1_224fa2e49f010d6eb698cc8fc2f4df4a9c60af14/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -198,24 +243,6 @@
         revision="24.0.1"
         sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
         <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.6.1_b0e0899df8d9669aed74435c28a8af654c063693/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.1_50ef56e7cb2ddf69220e756de7dd356c98c8cede/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_783adf925c8aae2bfa3068844e3ceaa788a9891a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -237,20 +264,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="cdddf21e0a8205e9955661061d1735ed10e44a7b">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.6.1_c311f0eac92ed1c46653ddaae9a9da52d7b7e3cb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="1f2df3a6843f51b9a1806060853e447798deb5ff">
+        sha1="5dbe3331427addc726cdbe5e688f77541e38ce32">
         <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d3c1fd9fd59275a37fded057fcbafa6457223aa/classes.dex" />
     </item>
     <item
@@ -291,12 +309,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_13e08b922ef2bcb8014e9136c3a6fd01362dbe14/classes.dex" />
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_482cb0be961f859c68e90620373ecc3e86252187/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -318,6 +336,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e6b4c4a21778fa5d5c66a5d81750245cb34aed18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.6.1_11f16951f5e5eb546bb1292c9d65a07db35f4db7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -333,6 +369,15 @@
         revision="24.0.1"
         sha1="f6aa7c76cbaa867e05dbad0afab1ef0e65c4e55f">
         <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.6.1_0284dbc56ceaec657b094949467d3e8ae69dbaae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_2ca8f9f1d0484243cce3585e3c2c1cb517332a3e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -354,12 +399,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_c1707e6246e8fd2e0cedf1a7f0789b7b3481105e/classes.dex" />
+        revision="24.0.2"
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.6.1_1def180f33061334b0cbd1c73d4ebbe40c46ded4/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -372,39 +417,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_09b7510227de0be4d978255225e4f6d8004c2c6b/classes.dex" />
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_7c8796809b520ef8466a4cab6bb8c8d52972fc7b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.6.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.6.1_52669bb8e543ee90b62929abba911cca1518cebc/classes.dex" />
+        revision="24.0.2"
+        sha1="d45c048bb1c55cf963899190e507065aea8e5be9">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.6.1_d5c4b223e2997c0ea419656bbfd702663094242a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_2ca8f9f1d0484243cce3585e3c2c1cb517332a3e/classes.dex" />
+        revision="24.0.2"
+        sha1="518adc52081d41724932b41bc132e4d50a352b86">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.6.1_0fbeb0b4f473864daf4928acc823e1f493364396/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.6.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.6.1_647d155a0935e323f87734087fb3f6774b3e1a3e/classes.dex" />
+        revision="24.0.2"
+        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.6.1_1342b865fc87916e173a01d73eb79c025012bacb/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -417,21 +462,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_482cb0be961f859c68e90620373ecc3e86252187/classes.dex" />
+        revision="24.0.2"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.6.1_74eef56d4e72602ddfe9369d82c2a3bf0075a465/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.6.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="a76a6983a23788b3689524d4bed763955afbd306">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.6.1_d4386bb38bc046a21e31bbd9e8b6f51396981ca1/classes.dex" />
+        revision="24.0.2"
+        sha1="f0e96478ca3147bc588aadb9ae467d85b42473cc">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.6.1_6c9f32dcb7bd905db3773e8a03dd7200940ac2a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5dbe3331427addc726cdbe5e688f77541e38ce32">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d3c1fd9fd59275a37fded057fcbafa6457223aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_783adf925c8aae2bfa3068844e3ceaa788a9891a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -444,75 +507,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.6.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.6.1_1def180f33061334b0cbd1c73d4ebbe40c46ded4/classes.dex" />
+        revision="24.0.2"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_13e08b922ef2bcb8014e9136c3a6fd01362dbe14/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="9c0cf3d4f9d7d076f301e110b92e18ae23da12c2">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.6.1_9d63ce490102a111330c31a1dd9787f2fa450f42/classes.dex" />
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_c10225ab24a3d067a7ae616f00be3d701b8f7e91/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_40a25641847f7e04eee668212901987dd3ba533b/classes.dex" />
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_73812166e63c312468f50d4d070a8c10f8d15abe/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.6.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.6.1_c798a88e9b9ebfe70237bc1c31b09a4f948c17d1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c828add497d2b7a3de7c047bf72050cd4b7521a1">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.6.1_53ba131d09df426e81fafa87127ccee968237b83/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.6.1_5494013772f04ccbc80bdb97c006179b24f44295/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.6.1_56ecde0291ec4766b100b0bec636df4c02ca4ef3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.6.1_11f16951f5e5eb546bb1292c9d65a07db35f4db7/classes.dex" />
+        revision="24.0.2"
+        sha1="1810ae0df0a1b9b539ce97df54e96f2bf8f5ff94">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.6.1_f570205a01d3d38976ffdeac6b18f05958136e52/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -525,21 +552,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.6.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.6.1_4ae305398f16543795e88b65a623a2050b0fad10/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.6.1_25ec00566cc294c9f81445ffed0c9fe98c29853f/classes.dex" />
+        revision="24.0.2"
+        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.6.1_0434ea0580d69680f570eec66f2114bfdcc9e179/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -579,6 +597,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f8db47be01cbe8cfa81e9cecce5ff1371ed1ad95">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.6.1_c940db774782e64b4271817179cb17ce54b2a11e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0e0e0681c26a1f575d3e4c542182dd59bab75fd6">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.6.1_682c200cdbab448cd8190505fe4013a3ceae831c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Cheesetouch/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -603,6 +639,618 @@
         revision="24.0.1"
         sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
         <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.6.1_f28a242956839df22073790bd7144435dc43f887/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_9dfa920606b971cf944769ca54c3cdedbaa773b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ff9be0a1e75a21c372735930d8987a55b5e6065f">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.6.1_e85dc1b19b8eb2e59a54a7d5264ef4263d38b707/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_435da67f0b9d4698e3fdaec2c844d3ab6bddc55d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e6b4c4a21778fa5d5c66a5d81750245cb34aed18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_95d6d2e00dbd93f8fb1e9e8e70e3eeb84f5c85e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c0cf3d4f9d7d076f301e110b92e18ae23da12c2">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.6.1_9d63ce490102a111330c31a1dd9787f2fa450f42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.6.1_25ec00566cc294c9f81445ffed0c9fe98c29853f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f6aa7c76cbaa867e05dbad0afab1ef0e65c4e55f">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.6.1_0284dbc56ceaec657b094949467d3e8ae69dbaae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.1_0082975a960b1c4bb9099f5963a4e363d8ebc06a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a136366045678579300d161de97c2211c4c4f7a0">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.6.1_3a944ffaa90e5ee80973602eb2984afa4d929d7c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a53ac0560ab915a02c50d2e5c7b003381e6fb5e3">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.6.1_d8458512f176322f285abe51ff010f0bbfd01051/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.6.1_b0e0899df8d9669aed74435c28a8af654c063693/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="526f4b02f1771fa7607ff1b89fe2e9bd0344fee8">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.6.1_406ffa62f9f5cfcefa4e0896a42789ac508e3652/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1a4e47270bfbe64d6516d3e8c078bc2f7e09684b">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fe5e975f094129818edf889d58ad17fecc076fdd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_beb5197607c4633410804c5dc1ba5fdda6e2039b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_45ac2c6da2e04cab8d308f7897c0d612a69cef08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.6.1_27601d51a4b6f4e7ff4937f80fedabce4e46395e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8ebae43cd06058e99e08c8b4d305b72f2b9927c6">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.6.1_224fa2e49f010d6eb698cc8fc2f4df4a9c60af14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_32d6369c789a1ba8188c137d33397ca3c3191721/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.6.1_d322798686b23a0abd36738ae5719856e6e67db3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.6.1_f28a242956839df22073790bd7144435dc43f887/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.1_a1b9f371743165be73e7e92813259bf322be7e92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="babb25794a7599069d34705038744c5760a9a88c">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-9.6.1_80f0c1636443da593206807c6b4a847967c18eef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_04acbe802faefb0e3dc588f0c31969f2c0c6709d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_07393363276bc738f944dd0068eb2bc1113c4644/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_0bc5bb6264c56f6ba61a948ec5b55cf8e881835f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_9820d05b94ac656c4daae26f0a7f57d3f84b568c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.1_50ef56e7cb2ddf69220e756de7dd356c98c8cede/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_783adf925c8aae2bfa3068844e3ceaa788a9891a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="cdddf21e0a8205e9955661061d1735ed10e44a7b">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.6.1_c311f0eac92ed1c46653ddaae9a9da52d7b7e3cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.6.1_f872ff20e240284fc00fe4d1979aecc5e077f96a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_37019badeabc34ab9d31dcd98e133ac9564f761f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_13e08b922ef2bcb8014e9136c3a6fd01362dbe14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c828add497d2b7a3de7c047bf72050cd4b7521a1">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.6.1_53ba131d09df426e81fafa87127ccee968237b83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="461cd433c2723981c7536d60acfcf3d86f3105fb">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.paolorotolo-appintro-4.1.0_243b05615a68a684c573b3ed3de470bb846fddbf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_c1707e6246e8fd2e0cedf1a7f0789b7b3481105e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_09b7510227de0be4d978255225e4f6d8004c2c6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_0bc5bb6264c56f6ba61a948ec5b55cf8e881835f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.6.1_56ecde0291ec4766b100b0bec636df4c02ca4ef3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.6.1_52669bb8e543ee90b62929abba911cca1518cebc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_2ca8f9f1d0484243cce3585e3c2c1cb517332a3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.6.1_4ae305398f16543795e88b65a623a2050b0fad10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.6.1_647d155a0935e323f87734087fb3f6774b3e1a3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_482cb0be961f859c68e90620373ecc3e86252187/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.6.1_a6cad1929ae793db75b39683f7e729c16d4e7460/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a76a6983a23788b3689524d4bed763955afbd306">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.6.1_d4386bb38bc046a21e31bbd9e8b6f51396981ca1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="cf2c4e6607c77b0e671dc5ca252c5ea0d9c1ce0d">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.6.1_2820d64d18c49ddea99fc5f3f02c163cea1801a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dfcba20b85ef3669a8ced0a8760a6df281cbd7c7">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.6.1_afe06c68fe01376fdebea67203a19fba7ede79e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.6.1_1def180f33061334b0cbd1c73d4ebbe40c46ded4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c0cf3d4f9d7d076f301e110b92e18ae23da12c2">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.6.1_9d63ce490102a111330c31a1dd9787f2fa450f42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_40a25641847f7e04eee668212901987dd3ba533b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.6.1_87d61b5c07886a5dcc00eca34d3186d48cf7f047/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.6.1_c798a88e9b9ebfe70237bc1c31b09a4f948c17d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.6.1_e58a522d5f2d5a47c5808d352af871176e463911/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_c1707e6246e8fd2e0cedf1a7f0789b7b3481105e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c828add497d2b7a3de7c047bf72050cd4b7521a1">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.6.1_53ba131d09df426e81fafa87127ccee968237b83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.6.1_5494013772f04ccbc80bdb97c006179b24f44295/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.6.1_56ecde0291ec4766b100b0bec636df4c02ca4ef3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.6.1_11f16951f5e5eb546bb1292c9d65a07db35f4db7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_e7766457523089cd364a1d4683ef78ab2d523b58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.6.1_4ae305398f16543795e88b65a623a2050b0fad10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_09b7510227de0be4d978255225e4f6d8004c2c6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.6.1_25ec00566cc294c9f81445ffed0c9fe98c29853f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.6.1_647d155a0935e323f87734087fb3f6774b3e1a3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c4394d46152165cd3256fb711ac94f66a28fbae1">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.6.1_895796407a202266d9355844b47483c0f4ffa5f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.6.1_a8f636e6cdb2e592f4f7e1534a424658ed102b9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_32d6369c789a1ba8188c137d33397ca3c3191721/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.6.1_c798a88e9b9ebfe70237bc1c31b09a4f948c17d1/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -633,21 +1281,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_9dfa920606b971cf944769ca54c3cdedbaa773b9/classes.dex" />
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_3281b828e59bf1f6993478f462d5b0b00593d0b2/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.6.1/jars/classes.jar"
+        jar="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="ff9be0a1e75a21c372735930d8987a55b5e6065f">
-        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.6.1_e85dc1b19b8eb2e59a54a7d5264ef4263d38b707/classes.dex" />
+        revision="24.0.2"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.1_a1b9f371743165be73e7e92813259bf322be7e92/classes.dex" />
     </item>
 
 </items>

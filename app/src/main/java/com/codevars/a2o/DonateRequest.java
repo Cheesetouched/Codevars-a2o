@@ -1,5 +1,6 @@
 package com.codevars.a2o;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -28,6 +29,10 @@ public class DonateRequest extends AppCompatActivity implements View.OnClickList
         request = (Button) findViewById(R.id.request);
 
         donate = (Button) findViewById(R.id.donate);
+
+        request.setOnClickListener(this);
+
+        donate.setOnClickListener(this);
 
         slide();
 
@@ -59,7 +64,11 @@ public class DonateRequest extends AppCompatActivity implements View.OnClickList
 
         if (view == donate) {
 
+            Intent go = new Intent(this, Donate.class);
 
+            finish();
+
+            startActivity(go);
 
         }
 

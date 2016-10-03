@@ -197,8 +197,8 @@
     <orderEntry type="library" exported="" name="support-core-ui-24.2.1" level="project" />
     <orderEntry type="library" exported="" name="recyclerview-v7-24.2.1" level="project" />
     <orderEntry type="library" exported="" name="firebase-messaging-9.6.1" level="project" />
-    <orderEntry type="library" exported="" name="appcompat-v7-24.2.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-cast-framework-9.6.1" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-24.2.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-ads-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-cast-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="firebase-config-9.6.1" level="project" />
@@ -217,9 +217,9 @@
     <orderEntry type="library" exported="" name="play-services-fitness-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-instantapps-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-identity-9.6.1" level="project" />
-    <orderEntry type="library" exported="" name="appintro-4.1.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-maps-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="firebase-storage-common-9.6.1" level="project" />
+    <orderEntry type="library" exported="" name="appintro-4.1.0" level="project" />
     <orderEntry type="library" exported="" name="support-media-compat-24.2.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-analytics-9.6.1" level="project" />
