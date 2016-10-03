@@ -8,10 +8,14 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
 import com.codevars.a2o.Extras.SampleSlide;
+import com.codevars.a2o.LocalStorage.SessionManagement;
 import com.github.paolorotolo.appintro.AppIntro;
 
 
 public class Intro extends AppIntro {
+
+
+    private SessionManagement session;
 
 
     @Override
@@ -21,6 +25,7 @@ public class Intro extends AppIntro {
         addSlide(SampleSlide.newInstance(R.layout.intro_three));
         addSlide(SampleSlide.newInstance(R.layout.intro_four));
 
+        session = new SessionManagement(getApplicationContext());
 
         hideStatusBar();
 
@@ -46,6 +51,8 @@ public class Intro extends AppIntro {
     @Override
     public void onSkipPressed() {
 
+        session.unsetFirstTime(false);
+
         Intent go = new Intent(Intro.this, LoginRegisterTabbed.class);
 
         finish();
@@ -61,6 +68,8 @@ public class Intro extends AppIntro {
 
     @Override
     public void onDonePressed() {
+
+        session.unsetFirstTime(false);
 
         Intent go = new Intent(Intro.this, LoginRegisterTabbed.class);
 

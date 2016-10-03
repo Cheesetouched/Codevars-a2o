@@ -19,8 +19,8 @@
 
         <activity
             android:name=".Extras.Splash"
-            android:theme="@style/SplashTheme"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,16 +30,19 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".LoginRegisterTabbed"
-            android:theme="@style/AppThemeNoBar"
-            android:screenOrientation="portrait"/>
-
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name=".Intro"
-            android:theme="@style/AppThemeNoBar"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoBar" />
+        <activity
+            android:name=".Phone"
+            android:screenOrientation="portrait"
+            android:label="Verify Your Phone Number"/>
     </application>
 
 </manifest>

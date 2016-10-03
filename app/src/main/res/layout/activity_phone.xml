@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/grey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10sp"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
+    android:paddingTop="10sp"
+    tools:context="com.codevars.a2o.Phone">
+
+
+    <LinearLayout
+        android:id="@+id/warningcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:background="@drawable/dialog">
+
+        <TextView
+            android:id="@+id/warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/verifywarning"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="20sp"
+            android:paddingEnd="10sp"
+            android:ems="2"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialog"
+        android:layout_above="@+id/buttonpanel"
+        android:layout_below="@+id/warningcontainer"
+        android:paddingStart="30sp"
+        android:paddingEnd="10sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="200sp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prefix"
+            android:textSize="30sp"
+            android:ems="2"/>
+
+        <EditText
+            android:id="@+id/p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/p2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/p3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/p4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/p5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/p6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/p7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/p8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/p9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/p10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/buttonpanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttonmaterial">
+
+        <Button
+            android:id="@+id/numberbutton"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="?attr/selectableItemBackground"
+            android:text="@string/submit"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
