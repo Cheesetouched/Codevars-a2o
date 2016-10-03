@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   $bloodgroup = $_POST['bloodgroup'];
 
-  require_once('database.php');
+  include_once('database.php');
 
   $host = HOST;
 
@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   $link = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
 
-  $check = $link->prepare("SELECT * FROM user WHERE email = :em");
+  $check = $link->prepare("SELECT * FROM users WHERE email = :em");
 
   $check->execute(array("em" => $email));
 
@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   if ($result) {
 
-    echo "Email Already Exists";
+    echo "Email Already Exists!";
 
   }
 

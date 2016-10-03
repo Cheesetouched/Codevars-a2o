@@ -2,7 +2,6 @@ package com.codevars.a2o;
 
 import android.graphics.Color;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +9,8 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.codevars.a2o.Adapters.ViewPagerAdapter;
+import com.codevars.a2o.Fragments.Login;
+import com.codevars.a2o.Fragments.Register;
 
 public class LoginRegisterTabbed extends AppCompatActivity {
 

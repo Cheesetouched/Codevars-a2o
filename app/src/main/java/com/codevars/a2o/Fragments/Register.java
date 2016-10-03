@@ -1,12 +1,12 @@
-package com.codevars.a2o;
+package com.codevars.a2o.Fragments;
 
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,31 +16,38 @@ import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.codevars.a2o.R;
 import com.codevars.a2o.Server.RegisterUserClass;
-import com.google.android.gms.vision.text.Line;
 
 import java.util.HashMap;
 
 
-public class Login extends Fragment implements View.OnClickListener {
+public class Register extends Fragment implements  View.OnClickListener {
 
 
-    private static final String LOGIN_URL = "http://atoo.esy.es/login.php";
+    private static final String REGISTER_URL = "http://atoo.esy.es/register.php";
+
+    private EditText fullname;
 
     private EditText email;
 
     private EditText password;
 
-    private Button submit;
+    private Spinner bloodgroup;
 
-    private LinearLayout slider;
+    private Spinner convention;
+
+    private LinearLayout slide;
+
+    private Button registerbutton;
 
     private Animation slideup;
 
 
-    public Login() {
+    public Register() {
 
     }
 
@@ -50,30 +57,35 @@ public class Login extends Fragment implements View.OnClickListener {
 
         Typeface one = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Lato-Light.ttf");
 
-        View view =  inflater.inflate(R.layout.fragment_login, container, false);
+        View view = inflater.inflate(R.layout.fragment_register, container, false);
 
+        fullname = (EditText) view.findViewById(R.id.fullname);
 
         email = (EditText) view.findViewById(R.id.email);
 
         password = (EditText) view.findViewById(R.id.password);
 
-        submit = (Button) view.findViewById(R.id.loginbutton);
+        bloodgroup = (Spinner) view.findViewById(R.id.bloodgroup);
 
-        slider = (LinearLayout) view.findViewById(R.id.buttonpanel);
+        convention = (Spinner) view.findViewById(R.id.convention);
 
-        submit.setOnClickListener(this);
+        slide = (LinearLayout) view.findViewById(R.id.buttonpanel);
+
+        registerbutton = (Button) view.findViewById(R.id.registerbutton);
+
+        registerbutton.setOnClickListener(this);
+
+        fullname.setTypeface(one);
 
         email.setTypeface(one);
 
         password.setTypeface(one);
 
-        submit.setTypeface(one);
+        registerbutton.setTypeface(one);
 
         slide();
 
-
         return view;
-
 
     }
 
@@ -85,7 +97,7 @@ public class Login extends Fragment implements View.OnClickListener {
 
         slideup.setDuration(1000);
 
-        slider.setAnimation(slideup);
+        slide.setAnimation(slideup);
 
     }
 
@@ -121,6 +133,14 @@ public class Login extends Fragment implements View.OnClickListener {
 
     private void emptycheck() {
 
+        if (fullname.getText().toString().trim().matches("")) {
+
+            Toast.makeText(getContext(), "Please Enter Your Fullname!", Toast.LENGTH_SHORT).show();
+
+            return;
+
+        }
+
         if (email.getText().toString().trim().matches("")) {
 
             Toast.makeText(getContext(), "Please Enter Your Email!", Toast.LENGTH_SHORT).show();
@@ -132,6 +152,22 @@ public class Login extends Fragment implements View.OnClickListener {
         if (password.getText().toString().trim().matches("")) {
 
             Toast.makeText(getContext(), "Please Enter Your Password!", Toast.LENGTH_SHORT).show();
+
+            return;
+
+        }
+
+        if (bloodgroup.getSelectedItem().equals("Select")) {
+
+            Toast.makeText(getContext(), "Please Enter Your Group!", Toast.LENGTH_SHORT).show();
+
+            return;
+
+        }
+
+        if (convention.getSelectedItem().equals("Select")) {
+
+            Toast.makeText(getContext(), "Please Select Your Convention!", Toast.LENGTH_SHORT).show();
 
             return;
 
@@ -151,19 +187,27 @@ public class Login extends Fragment implements View.OnClickListener {
 
     private void initiate() {
 
+        String fn = fullname.getText().toString().trim();
+
         String em = email.getText().toString().trim();
 
-        String pass = password.getText().toString().trim();
+        String ps = password.getText().toString().trim();
 
-        login(em, pass);
+        String gp = bloodgroup.getSelectedItem().toString();
+
+        String cv = convention.getSelectedItem().toString();
+
+        String bg = gp + cv;
+
+        register(fn, em, ps, bg);
 
     }
 
 
 
-    private void login(String em, String pass) {
+    private void register(String fn, final String em, String ps, String bg) {
 
-        class LoginUserClass extends AsyncTask<String, Void, String > {
+        class RegisterClass extends AsyncTask<String, Void, String > {
 
             ProgressDialog loading;
 
@@ -183,11 +227,25 @@ public class Login extends Fragment implements View.OnClickListener {
                 super.onPostExecute(s);
                 loading.dismiss();
 
-                if (s.equalsIgnoreCase("Successfully Logged In!")) {
+                if (s.equalsIgnoreCase("Successfully Registered!")) {
 
                     Toast.makeText(getContext(), s, Toast.LENGTH_SHORT).show();
 
-                    return;
+                    fullname.getText().clear();
+
+                    email.getText().clear();
+
+                    password.getText().clear();
+
+                    bloodgroup.setSelection(0);
+
+                    convention.setSelection(0);
+
+                    TabLayout host = (TabLayout) getActivity().findViewById(R.id.tablayout);
+
+                    TabLayout.Tab tab = host.getTabAt(0);
+
+                    tab.select();
 
                 }
 
@@ -206,13 +264,17 @@ public class Login extends Fragment implements View.OnClickListener {
 
                 HashMap<String, String> credentials = new HashMap<>();
 
-                credentials.put("email", params[0]);
+                credentials.put("fullname", params[0]);
 
-                credentials.put("password", params[1]);
+                credentials.put("email", params[1]);
+
+                credentials.put("password", params[2]);
+
+                credentials.put("bloodgroup", params[3]);
 
                 RegisterUserClass ruc = new RegisterUserClass();
 
-                String result = ruc.sendPostRequest(LOGIN_URL, credentials);
+                String result = ruc.sendPostRequest(REGISTER_URL, credentials);
 
                 return result;
 
@@ -220,9 +282,9 @@ public class Login extends Fragment implements View.OnClickListener {
 
         }
 
-        LoginUserClass attempt = new LoginUserClass();
+        RegisterClass attempt = new RegisterClass();
 
-        attempt.execute(em, pass);
+        attempt.execute(fn, em, ps, bg);
 
     }
 
@@ -231,7 +293,7 @@ public class Login extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View view) {
 
-        if (view == submit) {
+        if (view == registerbutton) {
 
             check();
 
