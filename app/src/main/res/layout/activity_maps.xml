@@ -11,28 +11,20 @@
     android:layout_height="180dp"
     tools:context="com.codevars.a2o.MapsActivity" />
 
-<LinearLayout
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:id="@+id/scrollview1"
-android:orientation="horizontal"
-android:layout_below="@id/map"
-    >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview1"
+        android:orientation="horizontal"
+        android:layout_below="@id/map">
 
-<ListView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/listview"
-    />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listview" />
 
 
+        </LinearLayout>
 
 
-
-
-
-
-</LinearLayout>
-
-
-    </RelativeLayout>
+</RelativeLayout>

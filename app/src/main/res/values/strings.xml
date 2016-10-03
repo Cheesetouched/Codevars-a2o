@@ -1,4 +1,69 @@
 <resources>
+
     <string name="app_name">A2O</string>
+
     <string name="title_activity_maps">Map</string>
+
+    <string name="circle">Material Circle</string>
+
+    <string name="image">Image</string>
+
+    <string name="fullname">Full Name</string>
+
+    <string name="email">Email Address</string>
+
+    <string name="password">Password</string>
+
+    <string name="bloodgroup">Blood Group</string>
+
+    <string name="mobile">Mobile Number</string>
+
+    <string name="login">LOGIN</string>
+
+    <string name="register">REGISTER</string>
+
+    <string name="submit">SUBMIT</string>
+
+    <string name="prefix">+91</string>
+
+    <string name="introoneheader">From A To O</string>
+
+    <string name="introonemain">Yep. Be It Any Blood Group You Want There. We Have It All. So You Can Totally Rely On Us.</string>
+
+    <string name="introtwoheader">Certified Doctors</string>
+
+    <string name="introtwomain">Checked. Tested. Verified. So That You Get The Best Outta Us.</string>
+
+    <string name="introthreeheader">100% Fresh</string>
+
+    <string name="introthreemain">We Keep Your Blood Fresh And Safe. In Accordance With The International Blood Standards. </string>
+
+    <string name="introfourheader">Wherever. Whenever.</string>
+
+    <string name="introfourmain">Mishap May Strike Anytime. Do Not Worry. We Work Round The Clock. More Power To You!</string>
+
+    <string name="verifywarning">Please Enter Your Phone Number. We Will Send A SMS For OTP Verification. Carrier Charges May Apply.</string>
+
+    <string name="otp">An OTP Has Been Sent To</string>
+
+    <string name="numberexample">9871495638</string>
+
+    <string-array name="bloodgroups">
+
+        <item>Select</item>
+        <item>AB</item>
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+
+    </string-array>
+
+    <string-array name="convention">
+
+        <item>Select</item>
+        <item>+</item>
+        <item>-</item>
+
+    </string-array>
+
 </resources>
