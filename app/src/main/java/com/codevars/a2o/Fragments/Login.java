@@ -64,6 +64,8 @@ public class Login extends Fragment implements View.OnClickListener {
 
         session.phone();
 
+        session.otp();
+
         email = (EditText) view.findViewById(R.id.email);
 
         password = (EditText) view.findViewById(R.id.password);

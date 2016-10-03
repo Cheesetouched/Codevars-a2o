@@ -229,7 +229,11 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
 
             Toast.makeText(this, "Verified!", Toast.LENGTH_SHORT).show();
 
+            session.createOTPSession();
+
             Intent go = new Intent(VerifyOTP.this, DonateRequest.class);
+
+            finish();
 
             startActivity(go);
 

@@ -3,6 +3,8 @@ package com.codevars.a2o.LocalStorage;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+
+import com.codevars.a2o.DonateRequest;
 import com.codevars.a2o.Phone;
 import com.codevars.a2o.VerifyOTP;
 
@@ -27,6 +29,8 @@ public class SessionManagement {
     public static final String LOGIN = "Nah";
 
     public static final String NUMBER = "Nao";
+
+    public static final String ONETIMEPASSWORD = "Unh";
 
     public static final String EMAIL = "EMAIL";
 
@@ -86,15 +90,11 @@ public class SessionManagement {
 
 
 
-    public void createOTPSession(String mobile, String otp) {
+    public void createOTPSession() {
 
-        editor.putString(MOBILE, mobile);
+        editor.putBoolean(NUMBER, false);
 
-        editor.putString(OTP, otp);
-
-        editor.putBoolean(LOGIN, false);
-
-        editor.putBoolean(NUMBER, true);
+        editor.putBoolean(ONETIMEPASSWORD, true);
 
         editor.commit();
 
@@ -127,6 +127,26 @@ public class SessionManagement {
         if (this.phoneDone()) {
 
             Intent i = new Intent(context, VerifyOTP.class);
+
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+            i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+
+            context.startActivity(i);
+
+        }
+
+    }
+
+
+
+    public void otp() {
+
+        if (this.otpDone()) {
+
+            Intent i = new Intent(context, DonateRequest.class);
 
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
@@ -184,6 +204,8 @@ public class SessionManagement {
     public boolean loginDone() { return pref.getBoolean(LOGIN, false); }
 
     public boolean phoneDone() { return pref.getBoolean(NUMBER, false); }
+
+    public boolean otpDone() { return pref.getBoolean(ONETIMEPASSWORD, false); }
 
 
 

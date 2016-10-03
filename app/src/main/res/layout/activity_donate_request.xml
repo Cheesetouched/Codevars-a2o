@@ -9,6 +9,7 @@
     tools:context="com.codevars.a2o.DonateRequest">
 
     <ImageView
+        android:id="@+id/logo"
         android:layout_width="200sp"
         android:layout_height="200sp"
         android:src="@drawable/logo"
