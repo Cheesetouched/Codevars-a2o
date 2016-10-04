@@ -1,9 +1,12 @@
 package com.codevars.a2o;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
+import android.os.AsyncTask;
+import android.os.Handler;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,18 +15,28 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.codevars.a2o.LocalStorage.SessionManagement;
+import com.codevars.a2o.Server.RegisterUserClass;
+
+import java.util.HashMap;
+
 public class Appointment extends AppCompatActivity implements View.OnClickListener {
 
+
+    private static final String REQUEST_OTP = "http://qwerty.esy.es";
 
     private ActionBar bar;
 
     private TextView datetext;
 
     private TextView timetext;
+
+    private LinearLayout up;
 
     private Button bookbutton;
 
@@ -36,6 +49,8 @@ public class Appointment extends AppCompatActivity implements View.OnClickListen
     private Spinner timespinner;
 
     private Spinner orientationspinner;
+
+    private ProgressDialog loading;
 
 
     @Override
@@ -63,6 +78,8 @@ public class Appointment extends AppCompatActivity implements View.OnClickListen
 
         orientationspinner = (Spinner) findViewById(R.id.orientationspinner);
 
+        up = (LinearLayout) findViewById(R.id.buttonpanel);
+
         datetext.setTypeface(one);
 
         timetext.setTypeface(one);
@@ -84,7 +101,7 @@ public class Appointment extends AppCompatActivity implements View.OnClickListen
 
         slideup.setDuration(1000);
 
-        bookbutton.setAnimation(slideup);
+        up.setAnimation(slideup);
 
     }
 
@@ -137,16 +154,64 @@ public class Appointment extends AppCompatActivity implements View.OnClickListen
 
         }
 
+        if (timespinner.getSelectedItem().equals("12:00") && orientationspinner.getSelectedItem().equals("AM")) {
+
+            Toast.makeText(this, "Sorry. Hospital Isn't Available At This Time Slot.", Toast.LENGTH_SHORT).show();
+
+            return;
+
+        }
+
 
         else {
 
 
-            initiate();
+            appointment();
 
         }
 
 
     }
+
+
+
+    private void appointment() {
+
+
+        loading = new ProgressDialog(Appointment.this, R.style.LoaderTheme);
+
+        dismiss();
+
+        loading.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
+
+        loading.setCancelable(false);
+
+        loading.show();
+
+    }
+
+
+
+    private void dismiss() {
+
+        final Handler handler = new Handler();
+
+        handler.postDelayed(new Runnable() {
+
+            @Override
+
+            public void run() {
+
+                loading.dismiss();
+
+                Toast.makeText(Appointment.this, "Appointment Scheduled!", Toast.LENGTH_LONG).show();
+
+            }
+
+        }, 3000);
+
+    }
+
 
 
 
@@ -182,7 +247,7 @@ public class Appointment extends AppCompatActivity implements View.OnClickListen
 
        if (view == bookbutton) {
 
-
+            check();
 
        }
 
