@@ -11,6 +11,8 @@ import android.widget.ImageView;
 
 import com.codevars.a2o.LocalStorage.SessionManagement;
 
+import java.util.HashMap;
+
 public class DonateRequest extends AppCompatActivity implements View.OnClickListener {
 
     private ImageView logo;
@@ -30,6 +32,20 @@ public class DonateRequest extends AppCompatActivity implements View.OnClickList
 
 
         session = new SessionManagement(getApplicationContext());
+
+        if (session.appointmentDone()) {
+
+            donate.setEnabled(false);
+
+            donate.setText("PENDING!");
+
+        }
+
+        else {
+
+
+
+        }
 
         logo = (ImageView) findViewById(R.id.logo);
 

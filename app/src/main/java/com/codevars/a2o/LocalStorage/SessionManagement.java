@@ -34,6 +34,8 @@ public class SessionManagement {
 
     public static final String DISCLAIMER = "Nupa";
 
+    public static final String APPOINTMENT = "Nahi";
+
     public static final String EMAIL = "EMAIL";
 
     public static final String MOBILE = "MOBILE";
@@ -107,6 +109,16 @@ public class SessionManagement {
     public void createDisclaimerSession() {
 
         editor.putBoolean(DISCLAIMER, true);
+
+        editor.commit();
+
+    }
+
+
+
+    public void createAppointmentSession() {
+
+        editor.putBoolean(APPOINTMENT, true);
 
         editor.commit();
 
@@ -195,6 +207,7 @@ public class SessionManagement {
 
 
 
+
     public HashMap<String,String> getEmail() {
 
         HashMap<String, String> email = new HashMap<>();
@@ -231,6 +244,18 @@ public class SessionManagement {
 
 
 
+    public HashMap<String, String> getAppointmentDetails() {
+
+        HashMap<String, String> appointment = new HashMap<>();
+
+        appointment.put(APPOINTMENT, pref.getString(APPOINTMENT, null));
+
+        return appointment;
+
+    }
+
+
+
     public boolean introDone() { return pref.getBoolean(INTRO, false); }
 
     public boolean loginDone() { return pref.getBoolean(LOGIN, false); }
@@ -240,6 +265,8 @@ public class SessionManagement {
     public boolean otpDone() { return pref.getBoolean(ONETIMEPASSWORD, false); }
 
     public boolean disclaimerDone() { return pref.getBoolean(DISCLAIMER, false); }
+
+    public boolean appointmentDone() { return pref.getBoolean(DISCLAIMER, false); }
 
 
 

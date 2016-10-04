@@ -27,8 +27,7 @@ import java.util.HashMap;
 
 public class Appointment extends AppCompatActivity implements View.OnClickListener {
 
-
-    private static final String REQUEST_OTP = "http://qwerty.esy.es";
+    
 
     private ActionBar bar;
 
@@ -50,6 +49,8 @@ public class Appointment extends AppCompatActivity implements View.OnClickListen
 
     private Spinner orientationspinner;
 
+    private SessionManagement session;
+
     private ProgressDialog loading;
 
 
@@ -57,6 +58,8 @@ public class Appointment extends AppCompatActivity implements View.OnClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_appointment);
+
+        session = new SessionManagement(getApplicationContext());
 
         bar = getSupportActionBar();
 
@@ -166,7 +169,7 @@ public class Appointment extends AppCompatActivity implements View.OnClickListen
         else {
 
 
-            appointment();
+            initiate();
 
         }
 
@@ -175,7 +178,7 @@ public class Appointment extends AppCompatActivity implements View.OnClickListen
 
 
 
-    private void appointment() {
+    private void initiate() {
 
 
         loading = new ProgressDialog(Appointment.this, R.style.LoaderTheme);
@@ -188,7 +191,9 @@ public class Appointment extends AppCompatActivity implements View.OnClickListen
 
         loading.show();
 
+
     }
+
 
 
 
