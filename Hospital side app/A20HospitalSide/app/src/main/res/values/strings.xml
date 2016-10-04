@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">SRM General Hospital</string>
+
+    <string-array name="hospitalname">
+        <item>Select the Hospital</item>
+        <item>Apollo Cradle</item>
+        <item>Chettinad hospital urban health care</item>
+        <item>COSH-multispeciality hospital</item>
+        <item>Life care hospital</item>
+        <item>Medicity Hospital</item>
+        <item>Swaram Hospital</item>
+
+    </string-array>
+
+    <string-array name="signs">
+        <item>Blood Sign</item>
+        <item>+</item>
+        <item>-</item>
+
+    </string-array>
+
+    <string-array name="bloodgroups">
+
+        <item>Blood Group</item>
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+
+    <string-array name="amount">
+
+        <item>Select the amount</item>
+        <item>1 unit</item>
+        <item>2 unit</item>
+        <item>3 unit</item>
+        <item>4 unit</item>
+        <item>5 unit</item>
+        <item>6 unit</item>
+        <item>7 unit</item>
+        <item>8 unit</item>
+        <item>9 unit</item>
+        <item>10 unit</item>
+        <item>11 unit</item>
+        <item>12 unit</item>
+        <item>13 unit</item>
+        <item>14 unit</item>
+        <item>15 unit</item>
+        <item>16 unit</item>
+        <item>17 unit</item>
+        <item>18 unit</item>
+        <item>19 unit</item>
+        <item>20 unit</item>
+
+    </string-array>
+
+    <string-array name="allbloodgroups">
+
+        <item>Select blood group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </string-array>
+
+
+</resources>

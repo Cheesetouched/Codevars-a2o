@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codevars.a20hospitalside.RequestBlood"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custombacground1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:id="@+id/requestlinear"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Request Blood"
+            android:textSize="25sp"
+            android:layout_gravity="bottom"
+            />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/requestlinear"
+        android:layout_marginTop="40dp"
+        android:id="@+id/spinner1"
+        android:background="#fff"
+
+        >
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:entries="@array/hospitalname"
+        android:background="@drawable/customspinner"
+        android:id="@+id/hospitalspinner"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_height="60dp"
+        android:layout_below="@id/spinner1"
+        android:layout_marginTop="40dp"
+        android:id="@+id/spinner2"
+        >
+
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/amount"
+            android:id="@+id/amountspinner"
+            android:background="@drawable/customspinner"
+            />
+
+    </LinearLayout>
+
+    <Spinner
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:id="@+id/spinnerbloodgroup"
+        android:layout_below="@+id/spinner2"
+        android:layout_marginTop="40dp"
+        android:entries="@array/bloodgroups"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/customspinner"
+
+        />
+
+    <Spinner
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/spinner2"
+        android:layout_marginTop="40dp"
+        android:id="@+id/spinner3"
+        android:entries="@array/signs"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/customspinner"
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#000"
+
+        android:background="@drawable/custombuttongreen"
+        android:id="@+id/button"
+        android:layout_below="@+id/spinnerbloodgroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+
+
+
+
+</RelativeLayout>

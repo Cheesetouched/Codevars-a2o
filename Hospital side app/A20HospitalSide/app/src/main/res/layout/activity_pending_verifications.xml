@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:layout_margin="10sp"
+    tools:context="com.codevars.a20hospitalside.PendingVerifications">
+
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:background="@drawable/dialog"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME: Vidhant Matta"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL: mattavidhant@gmail.com"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NUMBER: 8802304134"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLOOD GROUP: B+"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonpanel"
+        android:layout_below="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/dialog"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:text="Decline"
+            android:id="@+id/decline"
+            android:layout_gravity="center"
+            android:background="?attr/selectableItemBackground"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="40sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:id="@+id/accept"
+            android:text="Accept"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:textColor="@color/green"
+            android:layout_marginLeft="50sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
