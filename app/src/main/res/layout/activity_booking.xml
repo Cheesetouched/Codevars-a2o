@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/grey"
     tools:context="com.codevars.a2o.Booking">
 
 
     <LinearLayout
         android:id="@+id/headerimage"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="200dp"
         android:background="@drawable/hospital"
         android:orientation="horizontal"
         android:elevation="10px" />
@@ -20,70 +21,70 @@
         android:id="@+id/credentials"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/dialog"
         android:orientation="vertical"
         android:layout_below="@+id/headerimage"
-        android:layout_marginTop="50sp">
+        android:layout_marginTop="10sp">
 
         <TextView
+            android:id="@+id/hospitalname"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="25sp"
-            android:id="@+id/hospitalname"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:gravity="center"/>
 
         <TextView
+            android:id="@+id/hospitaladdress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:id="@+id/hospitaladdress"
             android:layout_marginTop="30sp"/>
 
 
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/contactpanel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/custombuttonred"
-        android:layout_below="@+id/credentials"
-        android:gravity="bottom"
-        android:orientation="vertical"
-        android:layout_margin="15dp">
-
-        <Button
-            android:id="@+id/contactbutton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="?attr/selectableItemBackground"
-            android:text="@string/contact"
-            android:textSize="15sp"
-            android:textColor="#fff"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
 
     <LinearLayout
-        android:id="@+id/bookpanel"
-        android:layout_width="match_parent"
+        android:id="@+id/buttonpanel"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/credentials"
+        android:layout_width="fill_parent"
         android:layout_alignParentBottom="true"
-        android:gravity="bottom"
-        android:orientation="vertical"
-        android:layout_margin="15dp">
+        android:baselineAligned="false"
+        android:weightSum="2">
 
-        <Button
-            android:id="@+id/bookbutton"
+
+        <LinearLayout
+            android:id="@+id/panel1"
+            android:layout_height="match_parent"
             android:layout_width="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/hospital"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/contact" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/panel2"
             android:layout_height="wrap_content"
-            android:background="@drawable/custombuttongreen"
-            android:text="@string/appointment"
-            android:textSize="15sp"
-            android:textColor="#fff"
-            android:textStyle="bold" />
+            android:layout_width="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/appointment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/appointment"/>
+
+        </LinearLayout>
+
 
     </LinearLayout>
+    
 
 </RelativeLayout>
