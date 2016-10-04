@@ -249,6 +249,12 @@ public class Register extends Fragment implements  View.OnClickListener {
 
                 }
 
+                if (s.equalsIgnoreCase("")) {
+
+                    Toast.makeText(getContext(), "Unstable Connection!", Toast.LENGTH_SHORT).show();
+
+                }
+
                 else {
 
                     Toast.makeText(getContext(), s, Toast.LENGTH_SHORT).show();

@@ -1,124 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.codevars.a2o.Booking">
 
-    <android.support.v7.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:id="@+id/toolbar1">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:textColor="#fff"
-            android:text="Book Appointment"
-            android:id="@+id/hospitalheading"
-            />
-
-    </android.support.v7.widget.Toolbar>
 
     <LinearLayout
+        android:id="@+id/headerimage"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:id="@+id/ln1"
-        android:layout_below="@+id/toolbar1"
         android:background="@drawable/hospital"
         android:orientation="horizontal"
-        android:elevation="10px"
-        />
-
-
+        android:elevation="10px" />
 
 
     <LinearLayout
+        android:id="@+id/credentials"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:id="@+id/ln2"
-        android:layout_below="@id/ln1"
-        android:layout_marginTop="50dp"
-        >
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/headerimage"
+        android:layout_marginTop="50sp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="25sp"
             android:id="@+id/hospitalname"
-            android:textStyle="bold"
-
-
-            />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/ln2"
-        android:id="@+id/ln3"
-        >
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:id="@+id/hospitaladdress"
-            />
+            android:layout_marginTop="30sp"/>
+
+
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/contactpanel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ln3"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="15dp"
-        android:layout_marginBottom="10dp"
-        android:id="@+id/ln4"
-        >
+        android:background="@drawable/custombuttonred"
+        android:layout_below="@+id/credentials"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
 
         <Button
+            android:id="@+id/contactbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Contact Hospital"
-            android:textSize="15dp"
-            android:background="@drawable/custombuttonred"
+            android:background="?attr/selectableItemBackground"
+            android:text="@string/contact"
+            android:textSize="15sp"
             android:textColor="#fff"
-            android:id="@+id/contactbutton" />
+            android:textStyle="bold" />
 
     </LinearLayout>
 
 
     <LinearLayout
+        android:id="@+id/bookpanel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ln4"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="15dp"
-        android:layout_marginBottom="10dp"
-        android:id="@+id/ln5"
-        >
+        android:layout_below="@+id/credentials"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Book your appointment"
-            android:textSize="15dp"
-            android:background="@drawable/custombuttongreen"
-            android:textColor="#fff"
             android:id="@+id/bookbutton"
-
-            />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custombuttongreen"
+            android:text="@string/appointment"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:textStyle="bold" />
 
     </LinearLayout>
-
-
-
-
-
-
-
-
 
 </RelativeLayout>

@@ -56,7 +56,10 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNoBar" />
         <activity android:name=".Donate"></activity>
-        <activity android:name=".Booking"></activity>
+        <activity
+            android:name=".Booking"
+            android:theme="@style/Theme.Design.Light"
+            android:label="Book An Appointment"/>
     </application>
 
 </manifest>
