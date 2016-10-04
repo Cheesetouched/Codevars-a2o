@@ -8,6 +8,7 @@ import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.codevars.a2o.LocalStorage.SessionManagement;
 
@@ -81,7 +82,7 @@ public class DonateRequest extends AppCompatActivity implements View.OnClickList
 
         if (view == request) {
 
-
+            Toast.makeText(DonateRequest.this, "You Have To Verify Your Account First!", Toast.LENGTH_LONG).show();
 
         }
 
