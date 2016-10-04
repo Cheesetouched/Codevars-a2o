@@ -30,7 +30,7 @@
 
     <string name="contact">Contact Hospital</string>
 
-    <string name="appointment">Check Appointment</string>
+    <string name="appointment">Book Appointment</string>
 
     <string name="prefix">+91</string>
 
@@ -59,6 +59,10 @@
     <string name="disclaimer">For You To Donate Blood Voluntarily, We Must Verify You First. After Verification, You Will Be Able To Donate Blood Wherever And Whenever.</string>
 
     <string name="agree">I Agree To The Terms.</string>
+
+    <string name="date">DATE</string>
+
+    <string name="time">TIME</string>
 
     <string-array name="bloodgroups">
 

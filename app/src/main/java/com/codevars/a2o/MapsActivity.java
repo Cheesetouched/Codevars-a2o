@@ -52,9 +52,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     //defining all the addresses of the hospitals
 
     String hospitaladdress1 = "2/319, OMR, Karapakkam, Chennai, Tamil Nadu 600097";
-    String hospitaladdress2 = "Rajiv Gandhi Salai,Kelambakkam, Kanchipuram Dist, Chennai, Tamil Nadu 603103";
+    String hospitaladdress2 = "Rajiv Gandhi Salai, Kelambakkam, Kanchipuram Dist, Chennai, Tamil Nadu 603103";
     String hospitaladdress3 = "No. 9, IAF Road, Near Madras Christian College, Duraiswamy Nagar, East, Tambaram, Chennai, Tamil Nadu 600059";
-    String hospitaladdress4 = "Life care hospital, Perumbakkam main road, sholinganallur";
+    String hospitaladdress4 = "Life Care Hospital, Perumbakkam Main Road, Sholinganallur";
     String hospitaladdress5 = "Kannan Avenue, New Balaji Nagar Main Road, Selaiyur, Near Camp Road Junction, East Tambaram, Chennai, Tamil Nadu 600073";
     String hospitaladdress6 = "2nd E St, Thiruvanmiyur, Chennai, Tamil Nadu 600041";
     String hospitaladdress7 = "SRM Nagar, Potheri Village, Kattankulathur, Kanchipuram, Tamil Nadu 603203";
@@ -64,9 +64,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     //defining all the names of the hospitals
     String hospitalname1 = "Apollo Cradle";
-    String hospitalname2 = "Chettinad Hospital urban health care";
+    String hospitalname2 = "Chettinad Hospital Urban Health Care";
     String hospitalname3 = "COSH - Multispeciality Hospital";
-    String hospitalname4 = "Life care hospital";
+    String hospitalname4 = "Life Care hospital";
     String hospitalname5 = "Medicity Hospital";
     String hospitalname6 = "Swaram Hospital";
     String hospitalname7 = "SRM General Hospital";
@@ -78,7 +78,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     protected void onCreate(Bundle savedInstanceState) {
 
 
-        final String[] hospitalarray = {"Apollo Cradle","Chettinad hospital urban health care","COSH - Multispeciality Hospital","Life Care Hospital","Medicity Hospital","Swaram Hospital"};
+        final String[] hospitalarray = {"Apollo Cradle","Chettinad Hospital Urban Health Care","COSH - Multispeciality Hospital","Life Care Hospital","Medicity Hospital","Swaram Hospital"};
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -179,7 +179,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .position(hosp1));
 
         hospital2 = mMap.addMarker(new MarkerOptions()
-                .title("Chettinad hospital urban health care")
+                .title("Chettinad Hospital Urban Health Care")
                 .position(hosp2));
 
         hospital3 = mMap.addMarker(new MarkerOptions()

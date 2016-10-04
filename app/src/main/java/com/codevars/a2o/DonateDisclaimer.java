@@ -2,6 +2,7 @@ package com.codevars.a2o;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -35,6 +36,7 @@ public class DonateDisclaimer extends AppCompatActivity implements View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donate_disclaimer);
 
+        Typeface one = Typeface.createFromAsset(getAssets(), "fonts/Lato-Regular.ttf");
 
         bar = getSupportActionBar();
 
@@ -53,6 +55,8 @@ public class DonateDisclaimer extends AppCompatActivity implements View.OnClickL
         submit.setOnClickListener(this);
 
         submit.setEnabled(false);
+
+        submit.setTypeface(one);
 
         buttonpanel.setBackgroundColor(Color.parseColor("#994CAF50"));
 
@@ -113,7 +117,7 @@ public class DonateDisclaimer extends AppCompatActivity implements View.OnClickL
 
         if (view == submit) {
 
-            Toast.makeText(this, "Terms And Conditions Accepted!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Terms And Conditions Accepted!", Toast.LENGTH_LONG).show();
 
             Intent go = new Intent(this, Donate.class);
 

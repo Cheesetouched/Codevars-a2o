@@ -72,6 +72,18 @@ public class Booking extends AppCompatActivity {
             }
         });
 
+
+        appointment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Booking.this, Appointment.class);
+
+                finish();
+
+                startActivity(intent);
+            }
+        });
+
     }
 
 
