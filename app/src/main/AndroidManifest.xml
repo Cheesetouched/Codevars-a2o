@@ -13,8 +13,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
@@ -38,7 +36,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNoBar" />
         <activity
-            android:name=".Intro"
+            android:name=".Extras.Intro"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNoBar" />
         <activity
@@ -55,11 +53,12 @@
             android:name=".DonateRequest"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNoBar" />
-        <activity android:name=".Donate"></activity>
+        <activity android:name=".Donate" />
         <activity
             android:name=".Booking"
-            android:theme="@style/Theme.Design.Light"
-            android:label="Book An Appointment"/>
+            android:label="Book An Appointment"
+            android:theme="@style/Theme.Design.Light" />
+        <activity android:name=".Request"></activity>
     </application>
 
 </manifest>

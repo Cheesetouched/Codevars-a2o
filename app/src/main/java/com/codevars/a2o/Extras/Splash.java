@@ -3,10 +3,7 @@ package com.codevars.a2o.Extras;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.Toast;
 
-import com.codevars.a2o.Fragments.Login;
-import com.codevars.a2o.Intro;
 import com.codevars.a2o.LocalStorage.SessionManagement;
 import com.codevars.a2o.LoginRegisterTabbed;
 
