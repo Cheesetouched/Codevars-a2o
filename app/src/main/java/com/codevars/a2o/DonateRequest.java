@@ -24,6 +24,7 @@ public class DonateRequest extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donate_request);
 
+
         logo = (ImageView) findViewById(R.id.logo);
 
         request = (Button) findViewById(R.id.request);

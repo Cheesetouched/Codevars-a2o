@@ -8,10 +8,12 @@ import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.os.AsyncTask;
 import android.os.CountDownTimer;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -73,11 +75,18 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
 
     private SessionManagement session;
 
+    private ActionBar bar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verify_otp);
+
+        bar = getSupportActionBar();
+
+        bar.setHomeButtonEnabled(true);
+
+        bar.setDisplayHomeAsUpEnabled(true);
 
         Typeface one = Typeface.createFromAsset(getAssets(), "fonts/Lato-Regular.ttf");
 
@@ -518,6 +527,33 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
             request();
 
             countdown();
+
+        }
+
+    }
+
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()) {
+
+            case android.R.id.home:
+
+                Intent intent = new Intent(this, Phone.class);
+
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+                finish();
+
+                startActivity(intent);
+
+                return true;
+
+            default:
+
+                return super.onOptionsItemSelected(item);
 
         }
 

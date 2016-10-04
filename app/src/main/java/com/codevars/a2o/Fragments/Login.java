@@ -54,10 +54,6 @@ public class Login extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        Typeface one = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Lato-Light.ttf");
-
-        View view =  inflater.inflate(R.layout.fragment_login, container, false);
-
         session = new SessionManagement(getContext());
 
         session.login();
@@ -65,6 +61,10 @@ public class Login extends Fragment implements View.OnClickListener {
         session.phone();
 
         session.otp();
+
+        Typeface one = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Lato-Light.ttf");
+
+        View view =  inflater.inflate(R.layout.fragment_login, container, false);
 
         email = (EditText) view.findViewById(R.id.email);
 
