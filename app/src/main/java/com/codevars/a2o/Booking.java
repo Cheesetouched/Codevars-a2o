@@ -67,7 +67,7 @@ public class Booking extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:9717372697"));
+                intent.setData(Uri.parse("tel:09717372697"));
                 startActivity(intent);
             }
         });

@@ -25,13 +25,39 @@
             android:textStyle="bold"
             android:textSize="30sp"/>
 
-        <Spinner
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20sp"
-            android:background="@drawable/round"
-            android:entries="@array/convention"
-            android:padding="20sp"/>
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+            <Spinner
+                android:id="@+id/datespinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/round"
+                android:entries="@array/date"
+                android:padding="20sp"
+                android:layout_weight="1"
+                android:layout_marginEnd="20sp"/>
+
+            <Spinner
+                android:id="@+id/monthspinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/round"
+                android:entries="@array/month"
+                android:padding="20sp"
+                android:layout_weight="1"
+                android:layout_marginStart="20sp"/>
+
+
+        </LinearLayout>
+
 
     </LinearLayout>
 
@@ -55,13 +81,37 @@
             android:textStyle="bold"
             android:textSize="30sp"/>
 
-        <Spinner
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20sp"
-            android:background="@drawable/round"
-            android:entries="@array/convention"
-            android:padding="20sp"/>
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+            <Spinner
+                android:id="@+id/timespinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/round"
+                android:entries="@array/time"
+                android:padding="20sp"
+                android:layout_weight="1"
+                android:layout_marginEnd="20sp"/>
+
+            <Spinner
+                android:id="@+id/orientationspinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/round"
+                android:entries="@array/orientation"
+                android:padding="20sp"
+                android:layout_weight="1"
+                android:layout_marginStart="20sp"/>
+
+
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -73,6 +123,7 @@
         android:background="@drawable/buttonmaterial">
 
         <Button
+            android:id="@+id/bookbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackground"
