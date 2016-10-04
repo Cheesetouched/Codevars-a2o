@@ -32,6 +32,8 @@ public class SessionManagement {
 
     public static final String ONETIMEPASSWORD = "Unh";
 
+    public static final String DISCLAIMER = "Nupa";
+
     public static final String EMAIL = "EMAIL";
 
     public static final String MOBILE = "MOBILE";
@@ -102,6 +104,16 @@ public class SessionManagement {
 
 
 
+    public void createDisclaimerSession() {
+
+        editor.putBoolean(DISCLAIMER, true);
+
+        editor.commit();
+
+    }
+
+
+
     public void login() {
 
         if (this.loginDone()) {
@@ -145,6 +157,26 @@ public class SessionManagement {
     public void otp() {
 
         if (this.otpDone()) {
+
+            Intent i = new Intent(context, DonateRequest.class);
+
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+            i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+
+            context.startActivity(i);
+
+        }
+
+    }
+
+
+
+    public void disclaimer() {
+
+        if (this.disclaimerDone()) {
 
             Intent i = new Intent(context, DonateRequest.class);
 
@@ -206,6 +238,8 @@ public class SessionManagement {
     public boolean phoneDone() { return pref.getBoolean(NUMBER, false); }
 
     public boolean otpDone() { return pref.getBoolean(ONETIMEPASSWORD, false); }
+
+    public boolean disclaimerDone() { return pref.getBoolean(DISCLAIMER, false); }
 
 
 

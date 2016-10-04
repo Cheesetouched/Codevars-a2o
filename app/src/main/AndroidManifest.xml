@@ -6,6 +6,9 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -27,6 +30,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name=".Extras.ReadSMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps"
@@ -58,7 +68,15 @@
             android:name=".Booking"
             android:label="Book An Appointment"
             android:theme="@style/Theme.Design.Light" />
-        <activity android:name=".Request"></activity>
+        <activity
+            android:name=".Request"
+            android:label="Request Blood"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Design.Light" />
+        <activity
+            android:name=".DonateDisclaimer"
+            android:label="Disclaimer"
+            android:theme="@style/Theme.Design.Light"/>
     </application>
 
 </manifest>

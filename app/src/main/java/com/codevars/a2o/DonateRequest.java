@@ -9,6 +9,8 @@ import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.codevars.a2o.LocalStorage.SessionManagement;
+
 public class DonateRequest extends AppCompatActivity implements View.OnClickListener {
 
     private ImageView logo;
@@ -19,11 +21,15 @@ public class DonateRequest extends AppCompatActivity implements View.OnClickList
 
     private Animation logoslide;
 
+    private SessionManagement session;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donate_request);
 
+
+        session = new SessionManagement(getApplicationContext());
 
         logo = (ImageView) findViewById(R.id.logo);
 
@@ -65,11 +71,26 @@ public class DonateRequest extends AppCompatActivity implements View.OnClickList
 
         if (view == donate) {
 
-            Intent go = new Intent(this, Donate.class);
+            if (session.disclaimerDone()) {
 
-            finish();
+                Intent go = new Intent(this, Donate.class);
 
-            startActivity(go);
+                finish();
+
+                startActivity(go);
+
+            }
+
+            else {
+
+                Intent go = new Intent(this, DonateDisclaimer.class);
+
+                finish();
+
+                startActivity(go);
+
+            }
+
 
         }
 

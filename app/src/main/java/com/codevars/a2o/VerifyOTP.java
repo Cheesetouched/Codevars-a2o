@@ -35,13 +35,13 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
 
     private final static String REQUEST_OTP = "http://atoo.esy.es/otp.php";
 
-    private EditText p1;
+    static EditText p1;
 
-    private EditText p2;
+    static EditText p2;
 
-    private EditText p3;
+    static EditText p3;
 
-    private EditText p4;
+    static EditText p4;
 
     private String first;
 
@@ -225,6 +225,28 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
             }
 
         }.start();
+
+    }
+
+
+
+    public void recivedSms(String message)
+    {
+        try
+        {
+
+            String removeend = message.substring(45);
+
+            Toast.makeText(this, removeend, Toast.LENGTH_LONG).show();
+
+            removeend = removeend.substring(0, removeend.length()-12);
+
+
+        }
+
+        catch (Exception e) {
+
+        }
 
     }
 
