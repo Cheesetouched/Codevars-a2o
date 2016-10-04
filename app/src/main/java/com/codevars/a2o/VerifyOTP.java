@@ -272,8 +272,6 @@ public class VerifyOTP extends AppCompatActivity implements View.OnClickListener
 
         else {
 
-            Toast.makeText(this, otpcheck, Toast.LENGTH_SHORT).show();
-
             Toast.makeText(this, "Incorrect OTP!", Toast.LENGTH_SHORT).show();
 
         }

@@ -27,7 +27,7 @@ import java.util.HashMap;
 
 public class Appointment extends AppCompatActivity implements View.OnClickListener {
 
-    
+
 
     private ActionBar bar;
 

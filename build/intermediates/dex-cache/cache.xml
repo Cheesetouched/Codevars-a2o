@@ -178,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="397054ff6649a79436a4d34515acfc2d14412b03">
+        sha1="78da646df3ad27775e54e619e684a36b2ee48f29">
         <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d3c1fd9fd59275a37fded057fcbafa6457223aa/classes.dex" />
     </item>
     <item
@@ -313,7 +313,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="c77831d1c63c335c1ce625a86914502e87170d50">
+        sha1="08cd2267cbcb410e70da4b7e37685d9429617d50">
         <dex dex="/Users/Cheesetouch/Desktop/Codevars-a2o/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fe5e975f094129818edf889d58ad17fecc076fdd/classes.dex" />
     </item>
     <item
